@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .container {
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .site-title {
+    font-size: 2rem;
+  }
+  
+  .nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+  }
+  
+  .nav li.active {
+    background-color: #555;
+  }
+  
+  .nav li:hover {
+    background-color: #777;
+  }
+  .status-page{
+  background-color: #333;
+
+  }
+  .home-page {
+  background-image: url('C:\Users\Lenovo-\Desktop\smartPetfeedingFrontend\smartpetfeeding\public\Pc_Banner.jpg');
+  background-size: 100%;
+  background-position:bottom;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-items: center;
+  padding: 20px;
+  color: #ffffff;
+  
+}
+.status -page {
+  background-image: url('C:\Users\Lenovo-\Desktop\smartPetfeedingFrontend\smartpetfeeding\public\Pc_Banner.jpg');
+  background-size: 100%;
+  background-position:bottom;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:left;
+  align-items: center;
+  padding: 20px;
+  color: #ffffff;
+  
+}
+.para-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.para-container p {
+  font-size: 24px;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  
+}
+.button-container {
+  display: flex;
+  justify-content: space-around; 
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color:black;
+  color: white;
+}
+
+
+  
+  .about-page {
+    background-image: url('C:\Users\Lenovo-\Desktop\smartPetfeedingFrontend\smartpetfeeding\public\aboutPhoto.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #ffffff;
+  }
+  
+  .frame {
+    border: 1px solid #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 360px;
+    height:160px;
+    width: 1200px;
+  }
+
+  
+  h1 {
+    font-size: 39px;
+    margin-bottom: 20px;
+    color: red;
+  }
+  
+  p {
+    font-size: 18px;
+    text-align: center;
+  }
+  h2{
+    font-size: 37px;
+    margin-bottom: 50px;
+    color: black;
+
+  }
+  .status-page{
+    background-image: url('C:\Users\Lenovo-\Desktop\smartPetfeedingFrontend\smartpetfeeding\public\aboutPhoto.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+  }
+  label{
+    font-size: 28px;
+    color: white;
+    border: 1px solid white;
+    padding: 19px;
+    border-radius: 23px;
+    background-color: rgba(0, 0, 0, 0.4);
+  
+  }
